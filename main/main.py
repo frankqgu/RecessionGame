@@ -49,29 +49,4 @@ def game():
           main()
         else: 
           print("Good Bye!")
-    
-  else: 
-    if Answer == ("B"): 
-      print("")
-      end
-def player_died():
-  print("You died, the bear eventually ate you...")
-  Answer = (input("Game Over!\n\nEnter N) for New Game:"))
-  if Answer == ("N)"): 
-    main()
-  else: 
-    print("Good Bye!")
-
-def player_ran():
-  Answer = (input("You find an exit from the forest, what do you do\n A) Exit forest\n B) Run around in forest \nEnter A) or B):")) 
-  if Answer == ("A)"): 
-    print("You exited the forest")
-    player_crossedRoad()
-  else: 
-    print("You (although insanly) chose to run around in the forest") 
-    player_stillRunsinForest()
-
-def player_crossedRoad():
-  print("You get the idea...")
-
-main ()
+  
